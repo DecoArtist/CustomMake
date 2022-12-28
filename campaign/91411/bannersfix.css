@@ -1,0 +1,122 @@
+.render-fm {
+    max-width: 1610px;
+}
+
+.row-fm.row{
+    gap: 40px;
+    margin: 0 15px;
+}
+.creationItem__bottomInfo
+{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-top: 6px;
+}
+
+.voteIcon.creationItem__votesIcon, .voteIcon.creationItem__votesIcon img
+{
+    margin-right: 1px;
+    height: 16px;
+}
+
+.creationItem__bottomInfoBlock
+{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;height: 18px;
+}
+
+.creationItem__votesLabel
+{
+    color: #1c1c1c;
+    font-family: Supercell Text,sans-serif;
+    font-size: 10px;
+    line-height: 14px;
+    letter-spacing: normal;
+    font-weight: 700;
+    color: silver;
+}
+
+.creationItem__creationStatus
+{
+    background: linear-gradient(179.47deg,#9978ea 10.06%,#6d6aff 109.8%);
+    border-radius: 9px;
+    color: #1c1c1c;
+    font-family: Supercell Text,sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 14px;
+    letter-spacing: 0;
+    color: #fff;
+    padding: 4px 12px;
+    border-radius: 20px;
+    line-height: 12px;
+}
+
+/* .column.thumbnail-container
+{
+    min-height: 245px;
+    min-width: 174px;
+    max-height: 445px;
+    max-width: 286px;
+}
+
+@media screen and (max-width: 1050px)
+{
+    .column.thumbnail-container {
+        width: calc(var(--vh-)*45 - 45px);
+    }
+} */
+
+.txtdivpart
+{
+    position: absolute;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 80px;
+    left: 0;
+    bottom: 0;
+    padding: 8px;
+    background: #fff;
+    text-align: left;
+}
+
+.txtdivpart h1
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;line-height: 20px;
+    letter-spacing: normal;
+    font-weight: 500;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #1c1c1c;
+}
+
+.txtdivpart h2
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    line-height: 17px;
+    letter-spacing: normal;
+    font-weight: 500;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: grey;
+}

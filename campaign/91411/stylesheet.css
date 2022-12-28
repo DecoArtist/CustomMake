@@ -1,0 +1,508 @@
+.campaingcontainer-m16
+{
+    width: 95%;
+    max-width: 1600px;
+    position: relative;
+    left: 50%;
+    top: 100px;
+    transform: translateX(-50%);
+    justify-content: center;
+    text-align: center;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.campaingimage img, .campaingimage, .campainginformation img, .campainginformation
+{
+    max-width: 769px;
+    min-width: 160px;
+}
+
+.campaingimage
+{
+    width: 50%;
+
+    background: url(assets/InkyCampaingAnnounce.jpg);
+    background-size: cover;
+    background-position-x: -70px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.campaingimage>*
+{
+    position: relative;
+    z-index: 1;
+}
+
+.textalingabsolute {
+    z-index: 2;
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: white;
+    font-family: SupercellHeadline-Heavy;
+    font-size: 32px;
+    letter-spacing: normal;
+    font-weight: 900;
+    white-space: nowrap;
+    background-color: #0000004d;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.campaingstate.row {
+    gap: 5px;
+    margin: 0;
+}
+
+.winnerMarker {
+    padding: 4px 0;
+    width: 24px;
+    height: 24px;
+    background-color: #ff5190;
+    border-radius: 12px;
+}
+
+.winnerMarker.close
+{
+    background: linear-gradient(139.52deg,#7d7780 9.24%,#28262c 154.43%);
+}
+
+p.campaingopenorclose {
+    font-size: 16px;
+}
+
+img.openorclose {
+    display: block;
+    margin: 0 auto;
+    width: 10px;
+    height: 15px;
+    max-width: unset;
+    min-width: unset;
+}
+
+.campaingimage::before
+{
+    content: "";
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    z-index: 0;
+
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0) 40%, rgb(71, 0, 130) 100%);
+}
+
+.campaingimage::after
+{
+    content: "";
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    z-index: 0;
+
+    opacity: .8;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    background: linear-gradient(195deg,transparent 75%,#000);
+}
+
+.campainginformation img, .campainginformation
+{
+    width: 50%;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.campainginformation>*
+{
+    position: relative;
+    z-index: 1;
+}
+
+.whatisthecamp {
+    background-color: white;
+    width: 80%;
+    height: 80%;
+    padding: 30px;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 13px;
+}
+
+.textaling
+{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.whatisthecamp p {
+    color: grey;
+    font-size: 18px;
+}
+
+.whatisthecamp p strong {
+    color: black;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.campainginformation::after
+{
+    content: "";
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    z-index: 0;
+
+    background-color: rgb(71, 0, 130);
+    max-width: 769px;
+    width: 100%;
+    min-width: 160px;
+
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.campaingimage img, .campainginformation img
+{
+    opacity: 0;
+}
+
+.campainginformation, .campaingimage
+{
+    position: relative;
+}
+
+@media screen and (max-width: 1051px)
+{
+    .campaingimage {
+        background-position-x: -900px;
+    }
+}
+
+@media screen and (max-width: 976px)
+{
+    .campaingcontainer-m16, .campaingimage img, .campainginformation img, .campainginformation, .campaingimage, .campainginformation::after
+    {
+        width: 100%;
+        margin-left: 0;
+
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .campaingimage
+    {
+        background-position: center;
+    }
+
+    .campaingimage::before {
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0) 80%, rgb(71, 0, 130) 100%);
+    }
+
+    .campaingimage::after {
+        transform: rotate(180deg);
+    }
+
+    .campaingcontainer-m16
+    {
+        flex-direction: column;
+    }
+
+    .campainginformation::after, .campainginformation, .campainginformation img, .campaingcontainer-m16, .campaingimage img, .campaingimage, .campaingimage::before, .campaingimage::after
+    {
+        border-radius: 0px;
+    }
+
+    .campainginformation::after, .campainginformation, .campainginformation img
+    {
+        border-bottom-left-radius: 8px;
+        border-bottom-right-radius: 8px;
+    }
+
+    .campaingimage img, .campaingimage, .campaingimage::before
+    {
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+    }
+
+    .campaingimage::after
+    {
+        border-radius: 8px;
+    }
+
+    .whatisthecamp
+    {
+        margin-top: 150px;
+    }
+
+    .textaling
+    {
+        position: relative;
+        top: unset;
+        left: unset;
+        transform: unset;
+        gap: 15px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .textalingabsolute {
+        bottom: 5px;
+        left: 2%;
+        font-size: 22px;
+    }
+
+    img.openorclose
+    {
+        margin-left: 0;
+        left: unset;
+        transform: unset;
+        border-radius: 0px;
+    }
+}
+
+@media screen and (max-width: 565px)
+{
+    .textalingabsolute {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 650px)
+{
+    .whatisthecamp p {
+        font-size: 14px;
+    }
+
+    .whatisthecamp p strong {
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width: 376px)
+{
+    .textalingabsolute {
+        font-size: 15px;
+    }
+}
+
+.winnercampaing
+{
+    top: 125px;
+    margin-bottom: 200px;
+}
+
+.campaigns-container-winner {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: #00000087 0px 60px 80px -30px;
+    margin-right: 2%;
+    border-radius: 8px;
+    overflow: hidden;
+    height: calc(var(--vh)*100 - 100px);
+    min-height: 500px;
+    width: 95%;
+    max-width: 1550px;
+    max-height: 599px;
+}
+
+.winthetime {
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    top: 43%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 85%;
+    justify-content: center;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.winner-icon
+{
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.winner-icon img
+{
+    width: 100%;
+    height: 100%;
+}
+
+.winner-txt
+{
+    font-family: 'SupercellHeadline-Heavy';
+    font-weight: 900;
+    line-height: 1;
+    color: #fff;
+    font-size: 27px;
+    text-align: center;
+    margin-top: 22px;
+}
+
+.column.thumbnail-container-winner
+{
+    border-radius: 9px;
+    background: #f9f9f9;
+    overflow: hidden;
+    box-shadow: #00000014 0px 14px 45px -15px;
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    height: 325px;
+    transform: translate(-50%, -50%);
+    width: calc(var(--vh-)*50 - 50px);
+    min-width: 267px;
+    max-width: 299px;
+    margin-top: 64px;
+}
+
+.column.thumbnail-container-winner:hover {
+    margin-top: 59px;
+    box-shadow: #00000045 0px 55px 45px -15px;
+}
+
+.creator-skin.creator-skin-winner {
+    height: 77%;
+}
+
+.creator-name-winner
+{
+    width: 100%;
+    transform: translate(-50%, -77%);
+    top: 82%;
+    bottom: 294px;
+}
+
+.column.thumbnail-container-winner > .creator-name-winner h1
+{
+    font-family: 'SupercellHeadline-Heavy';
+    color: #1c1c1c;
+    font-size: 21px;
+}
+
+.column.thumbnail-container-winner > .creator-name-winner h2
+{
+    font-size: 10px;
+    letter-spacing: normal;
+    font-weight: 600;
+    color: grey;
+    text-align: center;
+}
+
+.ray {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 110vw;
+    height: 110vw;
+    min-width: 1024px;
+    min-height: 1024px;
+}
+
+.ray svg
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    opacity: 0.1;
+    animation: RaysAnimation 60s steps(750) infinite;
+}
+
+@keyframes RaysAnimation
+{
+    0% {
+        transform: rotateZ(0deg);
+    }
+    100% {
+        transform: rotateZ(360deg);
+    }
+}
+
+.campaing-bgr
+{
+    position: relative;
+    background: linear-gradient(160deg,#ff8556 -15%,#ff00f7 208%);
+    width: 100%;
+    height: 100%;
+}
+
+.campaing-bgr::after
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background: linear-gradient(206deg,transparent 55%,#000 98%);
+    -webkit-transition: opacity .5s ease-in-out;
+    transition: opacity .5s ease-in-out;
+    opacity: 0.6;
+
+    display: none;
+}
+
+.campaing-bgr, .campaigns-announce, .campaigns-container-winner
+{
+    border-radius: 8px;
+}
+
+@media screen and (max-width: 976px)
+{
+    .campaigns-container-winner
+    {
+        width: 100%;
+        max-width: 769px;
+    }
+}
+
+@media screen and (max-width: 770px)
+{
+    section.campaingheader
+    {
+        position: relative;
+        top: -20px;
+    }
+
+    .winnercampaing
+    {
+        top: 24px;
+    }
+
+    .campaigns-container-winner, .campaing-bgr, .campaigns-announce, .campaingimage img, .campaingimage, .campaingimage::before, .campainginformation::after, .campainginformation, .campainginformation img
+    {
+        border-radius: 0px;
+    }
+}
