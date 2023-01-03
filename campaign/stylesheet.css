@@ -1,0 +1,201 @@
+.hero-title {
+    top: 142px;
+    margin-bottom: 220px;
+}
+
+.hero-title .container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero-title .container h1 {
+    font-family: 'SupercellHeadline-Heavy';
+}
+
+.hero-title .container h2 {
+    font-family: 'Roboto', sans-serif;
+}
+
+@media (max-width: 30.0625em){
+.hero-title .container h2 {
+    font-size: 18px;
+}
+.hero-title .container {
+    padding: 0 20px;    
+}}
+
+@media (max-width: 56.25em){
+.grid-layout{
+    flex-wrap: wrap!important;
+    gap: 2em;
+}}
+
+.campaigns__content {
+    padding-bottom: 48px;
+}
+
+@media (min-width: 48em){
+.campaigns__content {
+    padding-bottom: 96px;
+}}
+
+.grid-item {
+    margin-right: 0px;
+    width: calc((100% - 0px) / 1);
+}
+
+@media (min-width: 56.25em){
+.grid-item {
+    margin-right: 32px;
+    width: calc((100% - 32px) / 2);
+}}
+
+.campaignItem__main {
+    position: relative;
+    width: 100%;
+    padding-top: 56.10465%;
+    border-radius: 8px;
+    background: #f9f9f9;
+    overflow: hidden;
+    -webkit-box-shadow: 0 0 20px 0 rgb(0 0 0 / 5%);
+    box-shadow: 0 0 20px 0 rgb(0 0 0 / 5%);
+    background-color: #fff;
+    transition: transform .2s cubic-bezier(.455,.03,.515,.955),box-shadow .2s cubic-bezier(.455,.03,.515,.955),-webkit-transform .2s cubic-bezier(.455,.03,.515,.955),-webkit-box-shadow .2s cubic-bezier(.455,.03,.515,.955);
+}
+
+@media (min-width: 48em){
+.campaignItem__main {
+    border-radius: 16px;
+    padding-top: 55.45775%;
+}
+
+.campaignItem__main:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 20px 0 rgb(0 0 0 / 10%);
+}}
+
+.campaignItem__content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+}
+
+.campaignItem__content:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 8px;
+    background: linear-gradient(144.47deg,#7d7780 9.24%,#28262c 154.43%);
+}
+
+.campaignItem__content.open:after {
+    background: linear-gradient(160deg,#ff8556 -15%,#ff00f7 208%);
+}
+
+@media (min-width: 48em){
+.campaignItem__content:after {
+    height: 16px;
+}}
+
+.grid-bgr::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    opacity: .6;
+    z-index: 1;
+    background: linear-gradient(206deg,transparent 40%,#000 98%);
+    margin-bottom: 8px;
+}
+
+@media (min-width: 48em){
+    .grid-bgr::after {
+        margin-bottom: 16px;
+    }}
+
+.text_wrapper {
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    z-index: 3;
+}
+
+.campaignItem_info {
+    position: relative;
+    padding: 8px 16px 16px 16px;
+}
+
+@media (min-width: 48em){
+.campaignItem_info {
+    padding: 16px 16px 32px 16px;
+}}
+
+.campaignItem_info p {
+    color: #fff;
+    font-family: 'SupercellHeadline-Heavy';
+    font-size: 22px;
+    font-weight: 800;
+    line-height: normal;
+    text-align: left;
+    white-space: normal;
+}
+
+@media (min-width: 48em){
+.campaignItem_info p {
+    font-size: 32px;
+    line-height: 31px;
+}}
+
+.campaignMarker--md {
+    width: 24px;
+    height: 24px;
+    border-radius: 12px;
+}
+
+.campaignMarker--md.--closed {
+    background: linear-gradient(144.47deg,#7d7780 9.24%,#28262c 154.43%);
+}
+
+.campaignMarker--md.--open {
+    background: linear-gradient(270deg,#ff8556 -43.36%,#ff00f7 198.44%);
+}
+
+.campaignMarker--md img {
+    width: 12px;
+    height: 16px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: block;
+}
+
+p.campaignItem_status {
+    display: inline-block;
+    text-align: left;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 23px;
+    text-transform: uppercase;
+    margin-left: 8px;
+    font-family: 'Roboto', sans-serif;
+}

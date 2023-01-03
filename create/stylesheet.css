@@ -205,7 +205,7 @@ section.artcl p strong
 {
     max-width: 89%;
     top: 50%;
-    left: 44%;
+    left: 50%;
     transform: translate(-50%, -50%);
     margin-top: 30px;
     position: absolute;
@@ -215,7 +215,6 @@ section.artcl p strong
 @media screen and (max-width: 750px)
 {
     .image-one > .brawler img {
-        min-width: 225%;
         top: 60%;
         left: 60%;
         transform: translate(-60%, -60%);
@@ -225,8 +224,39 @@ section.artcl p strong
 @media screen and (max-width: 545px)
 {
     .image-one > .brawler img {
-        min-width: 370px;
+        min-width: 260px;
         top: 70%;
+        max-width: 20%;
+        transform: translate(-60%, -70%);
+    }
+}
+
+.image-one > .brawler.molyan img
+{
+    max-width: 0;
+    top: 72%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    margin-top: 30px;
+    position: absolute;
+    min-width: 65%;
+}
+
+@media screen and (max-width: 750px)
+{
+    .image-one > .brawler.molyan img {
+        top: 80%;
+        left: 70%;
+        transform: translate(-60%, -60%);
+        min-width: 80%;
+    }
+}
+
+@media screen and (max-width: 545px)
+{
+    .image-one > .brawler.molyan img {
+        min-width: 210px;
+        top: 100%;
         max-width: 20%;
         transform: translate(-60%, -70%);
     }
@@ -236,7 +266,7 @@ section.artcl p strong
     position: absolute;
     top: 50%;
     transform: translate(50%, -50%);
-    right: 25%;
+    right: 22.5%;
     text-align: center;
 }
 

@@ -35,6 +35,6 @@ main {
 
 .votingBar__voteStatus::after
 {
-    content: "Voting Closed";
+    content: "Vote in discord";
     position: relative;
 }

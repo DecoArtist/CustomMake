@@ -8,11 +8,19 @@
     margin-top: 130px;
 }
 
-.row-fm.row{
+.row-fm.row {
     gap: 40px;
-    justify-content: center;
-    margin: 0;
+    justify-content: left;
+    margin: 0 0 0 10px;
 }
+
+@media screen and (max-width: 1725px) {
+    .row-fm.row {
+        justify-content: center;
+        margin: 0;
+    }
+}
+
 .creationItem__bottomInfo
 {
     display: -webkit-box;

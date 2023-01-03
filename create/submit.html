@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="utf-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is a website for Explore and Create content for Molyan Stars, based on Brawl Stars made by Supercell">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta property="og:title" content="Custom Make - Submit YOUR CREATION for Molyan Stars!">
+    <meta property="og:site_name" content="Custom Make - Submit YOUR CREATION for Molyan Stars!">
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="This is a website for Explore and Create content for Molyan Stars, based on Brawl Stars made by Supercell">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:description" content="This is a website for Explore and Create content for Molyan Stars, based on Brawl Stars made by Supercell">
+    <meta name="developer" content="DecoW">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://custom-make.netlify.app/assets/logos/custom-logo_icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://custom-make.netlify.app/assets/logos/custom-logo_icon.png">
+    <meta itemprop="image" content="https://i.im.ge/2022/09/10/OJCR6K.Supercell-make-share.png">
+    <meta property="og:image" content="https://i.im.ge/2022/09/10/OJCR6K.Supercell-make-share.png">
+    <meta name="twitter:image" content="https://i.im.ge/2022/09/10/OJCR6K.Supercell-make-share.png">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="theme-color" content="#ffad1b">
+    <title>Custom Make - Submit YOUR CREATION for Molyan Stars!</title>
+    <script src="https://kit.fontawesome.com/c1b646632a.js" crossorigin="anonymous"></script>
+    <script src="../bootstrap-4.6.2-dist/js/bootstrap.js" defer></script>
+    <link href="../bootstrap-4.6.2-dist/css/bootstrap-grid.css" rel="stylesheet">
+    <link rel="stylesheet" href="../CSS/global.css">
+    <link rel="stylesheet" href="submit-logic.css">
+    <script src="../JS/script.js" defer=""></script>
+    <a><style>.p-column{display: flex!important;flex-direction: column!important;align-items: center;margin-top: calc(var(--vh, 1vh) * 20);justify-content: center;}
+    @media (min-height: 31.25em){.p-column{margin-top:100px;}}</style></a>
+</head>
+
+<body id="app" onload="loadnav();">
+    <nav></nav>
+    <section class="selectionbar"></section>
+
+    <main>
+        <form action="mailto:darkbeaofc@gmail.com" method="post" enctype="text/plain" class="p-column">
+            <span>Name:</span><input type="text" id="getname" placeholder="  Don't need to be your real name" name="--Name"><span class="TextERR" id="nameERR"></span>
+            <span>Skin Name:</span><input type="text" id="team" placeholder="  Your skin name" name="--Skin-Name"><span class="TextERR" id="teamERR"></span>
+            <span>About Skin:</span><input type="text" id="lineup" placeholder="  Your skin description" name="--About-Skin"><span class="TextERR" id="lineupERR"></span>
+            <span>Skin-images</span><br><h4>(NEED TO BE IN A LINK!)</h4><input type="text" id="capitan" placeholder="  Send images of your skin in a LINK!" name="--Skin-LINK"><span class="TextERR" id="capitanERR"></span>
+            <span>Social-Medias</span><br><h4>(optional)</h4><input type="text" id="medias" placeholder="  Your-social medias" name="--Social-medias">
+            <input id="btn_ok" type="submit" value="" onclick="setblackborder()"><span class="submit-title p-relative">Send E-mail</span>
+            <div class="redblock" onclick="getname(); getlineup(); getteam(); getcapitan()"></div>
+        </form>
+    </main>
+</body></html>
+<script src="js/set-email.js"></script>
