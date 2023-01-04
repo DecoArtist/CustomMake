@@ -42,7 +42,6 @@
     padding: 5px;
     border-radius: 20px;
     position: absolute;
-    -webkit-animation: entertext 5.5s linear forwards;
 }
 
 @-webkit-keyframes entertext {
