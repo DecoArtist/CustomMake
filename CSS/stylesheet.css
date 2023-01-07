@@ -1,5 +1,5 @@
 .campaigns-container
-{position: relative;left: 50%;transform: translateX(-50%);margin-right: 2%;margin-top: -3%;border-radius: 24px;height: auto;width: 90%;max-width: 1600px;aspect-ratio: 1300/500;box-shadow: 0 4px 16px rgb(71 69 156 / 22%);}
+{position: relative;left: 50%;transform: translateX(-50%);margin-right: 2%;margin-top: 3%;border-radius: 24px;height: auto;width: 90%;max-width: 1600px;aspect-ratio: 1300/500;box-shadow: 0 4px 16px rgb(71 69 156 / 22%);}
 
 @media (min-width: 48em){
     .campaigns-container {
