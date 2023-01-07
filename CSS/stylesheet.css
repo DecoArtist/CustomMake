@@ -70,7 +70,7 @@
     background-position: center 90%;
     background-repeat: no-repeat;
     background-image: url(../campaign/51192/assets/EasterCampaingAnnounce.png);
-    box-shadow: #00000087 0px 60px 80px -30px;
+    box-shadow: 0 4px 16px rgb(71 69 156 / 22%);
 }
 
 /* @media (max-width: 630px){
@@ -84,15 +84,14 @@
     position: relative;
     left: 50%;
     transform: translateX(-50%);
-    box-shadow: #00000087 0px 60px 80px -30px;
     margin-right: 2%;
-    margin-top: 10%;
+    margin-top: 3%;
     border-radius: 24px;
-
     height: auto;
     width: 90%;
     max-width: 1600px;
     aspect-ratio: 1300/500;
+    box-shadow: 0 4px 16px rgb(71 69 156 / 22%);
 }
 
 @media screen and (max-width: 820px)
@@ -212,21 +211,19 @@
 }
 
 .row-fm.row {
-    gap: 40px;
+    gap: 3%;
     justify-content: center;
     margin: 0;
 }
 
 .render-fm
 {
-    height: max-content;
     max-width: 1600px;
     width: 100%;
     min-height: 400px;
-    max-height: 640px;
+    max-height: 676px;
     box-shadow: none;
-    margin-top: 9%;
-
+    margin-top: 7%;
     position: relative;
     left: 50%;
     transform: translateX(-50%);
@@ -240,16 +237,16 @@
 
 .column.thumbnail-container {
     height: auto;
-    width: 29vw;
+    width: 27vw;
     min-width: 300px;
     max-width: 500px;
-    aspect-ratio: 270/335;
+    aspect-ratio: 270/227;
     position: relative;
-    border-radius: 9px;
+    border-radius: 16px;
     background: #f9f9f9;
     overflow: hidden;
-    box-shadow: #00000045 0px 50px 45px -15px;
     transition: .2s cubic-bezier(.455,.03,.515,.955),box-shadow .2s cubic-bezier(.455,.03,.515,.955),-webkit-transform .2s cubic-bezier(.455,.03,.515,.955),-webkit-box-shadow .2s cubic-bezier(.455,.03,.515,.955);
+    box-shadow: 0 4px 16px rgb(71 69 156 / 17%);
 }
 
 .column.thumbnail-container:hover {
@@ -258,38 +255,34 @@
 }
 
 .creator-skin {
-    height: 50%;
+    height: 64%;
     width: 100%;
     background-size: cover;
 }
 
 .creator-thumb {
-    width: 150px;
-    height: 150px;
+    width: 107px;
+    height: 110px;
     position: absolute;
     background-size: cover;
-    top: 50%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 50%;
-    border: 6px solid #fff;
+    border: 4px solid #fff;
     box-shadow: #000000b3 0px 50px 70px -35px;
 }
 
 .creator-name {
     bottom: 10%;
-    font-size: 30px;
+    font-size: 16px;
     left: 50%;
     position: absolute;
     transform: translateX(-50%);
     text-align: center;
-    width: 100%;
 }
 
-.creator-name h1 {
-    font-family: 'SupercellHeadline-Heavy';
-    color: #1c1c1c;
-}
+.creator-name h1 {width: 100%;font-family: Supercell Text,sans-serif;font-size: 12px;line-height: 17px;letter-spacing: normal;font-weight: 500;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;font-size: 14px;line-height: 100%!important;color: #1c1c1c;background: #fff;padding: 8px 16px;border-radius: 20px;margin-top: 8px;text-align: center;}
 
 .creator-name h2 {
     color: gray;
@@ -307,8 +300,8 @@
 @media screen and (max-width: 1050px)
 {
     .render-fm {
-        height: 1000px;
-        max-height: unset;
+        /* height: 1000px; */
+        /* max-height: unset; */
     }
 
     .row-fm.row {
@@ -318,7 +311,7 @@
     .column.thumbnail-container {
         margin: 5px;
         margin-top: 9px;
-        margin-bottom: 30px;
+        margin-bottom: 20px;
     }
 
     .column.thumbnail-container
