@@ -1,0 +1,103 @@
+body
+{
+    background: url(../assets/background/bsc_battle.jpg) no-repeat;
+    background-attachment: fixed;
+    background-position: top;
+    background-size: cover;
+}
+
+header {
+    position: static;
+}
+
+.mobile-nav
+{
+    z-index: 1;
+    position: absolute!important;
+}
+
+form {
+    position: relative;
+    margin-top: 7vh;
+}
+
+span {
+    color: white;
+    margin-top: 20px;
+    text-shadow: var(--text-shadow_alt);
+    font-family: 'SupercellHeadline-Heavy';
+}
+
+span.TextERR {
+    margin: 0;
+    font-weight: 900;
+    text-shadow: none;
+    color: var(--danger);
+    font-family: 'Roboto', sans-serif;
+}
+
+input {
+    width: 300px;
+    height: 45px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: white;
+}
+
+input#habi {
+    height: 65px;
+}
+
+input#about {
+    height: 80px;
+}
+
+form h4 {
+    margin: 0;
+    font-weight: 800;
+    margin-top: -15px;
+    margin-bottom: 3px;
+    font-size: 12px;
+}
+
+#btn_ok {
+    border: none;
+    width: 150px;
+    height: 50px;
+    background: linear-gradient(179.47deg,#9978ea 10.06%,#6d6aff 109.8%);
+    border: 1px solid black;
+    border-radius: 4px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-family: 'brawl';
+    color: white;
+    text-shadow: var(--text-shadow);
+    margin-top: 30px;
+    margin-bottom: 10px;
+    z-index: 1;
+}
+
+.redblock
+{
+    border: none;
+    width: 150px;
+    height: 50px;
+    background: red;
+    border: 1px solid black;
+    border-radius: 4px;
+    align-items: center;
+    justify-content: center;
+    margin-top: -102px;
+    margin-bottom: 20px;
+    cursor: pointer;
+
+    opacity: 0;
+    z-index: 3;
+}
+
+span.submit-title {
+    top: -67px;
+    z-index: 2;
+    cursor: pointer;
+}
