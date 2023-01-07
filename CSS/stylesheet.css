@@ -352,7 +352,7 @@
     width: 90%;
     aspect-ratio: 16/9;
     max-width: 90%;
-    max-height: 405px;
+    height: 405px;
     background: linear-gradient(227.24deg,#ff8556 -13.74%,#ff00f7 235.38%);
     border-radius: 24px;
 }
