@@ -350,12 +350,11 @@
     transform: translateX(-50%);
     box-shadow: #00000087 0px 60px 80px -30px;
     width: 90%;
-    aspect-ratio: 1300/500;
-    max-width: 1600px;
+    aspect-ratio: 16/9;
+    max-width: 90%;
     height: 405px;
     background: linear-gradient(227.24deg,#ff8556 -13.74%,#ff00f7 235.38%);
     border-radius: 24px;
-    margin-right: 2%;
 }
 
 
