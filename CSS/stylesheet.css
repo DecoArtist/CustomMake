@@ -1,9 +1,8 @@
 .campaigns-container
-{position: relative;left: 50%;transform: translateX(-50%);margin-right: 2%;margin-top: 3%;border-radius: 24px;height: auto;width: 90%;max-width: 1600px;aspect-ratio: 1300/500;box-shadow: 0 4px 16px rgb(71 69 156 / 22%);}
+{position: relative;left: 50%;transform: translateX(-50%);margin-right: 2%;margin-top: -3%;border-radius: 24px;height: auto;width: 90%;max-width: 1600px;aspect-ratio: 1300/500;box-shadow: 0 4px 16px rgb(71 69 156 / 22%);}
 
 @media (min-width: 48em){
     .campaigns-container {
-    height: calc(var(--vh)*100 - 100px);
     padding: 0px;
     min-height: 600px;
     max-height: 900px;
@@ -16,8 +15,8 @@
 
 @media {
     .campaigns-container {aspect-ratio: 422/360;
-    
 }}
+
 .camptext
 {
     color: white;
@@ -131,7 +130,7 @@
 {
     .campo
     {
-        background: #00000047;
+        background: #1c1f2029;
     }
 }
 
@@ -186,21 +185,22 @@
 }
 
 .under-logos .row.flex-nowrap img.\32 {
-    height: 17%;
-    right: 10%;
-    bottom: 7%;
+    height: 19%;
+    right: 3%;
+    bottom: 4%;
     width: auto;
     position: relative;
 }
 
 .creators.column {
-    gap: 60px;
+    gap: -10px;
 }
 
 .row-fm.row {
     gap: 3%;
     justify-content: center;
     margin: 0;
+    margin-top: 10%;
 }
 
 .render-fm
@@ -457,7 +457,7 @@
 {
     .readytocreat-container
     {
-        margin-top: 186px;
+        margin-top: -10px;
         height: 405px;
     }
 
