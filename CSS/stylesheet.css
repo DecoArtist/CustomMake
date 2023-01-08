@@ -589,3 +589,36 @@ span.highlight {
     margin: 0 64px;
     line-height: 1.5;
 }
+
+@media screen and (max-width: 47.99em)
+{
+    .navcontainer1 {
+        margin-top: 60px;
+    }
+}
+
+@media screen and (max-width: 47.99em)
+{
+    .banner_content {
+        background-size: 100%;
+    }
+}
+
+@media screen and (max-width: 47.99em)
+{
+    .banner_image {
+        position: absolute;
+        background-position: 0 10%;
+        left: -50px;
+    }
+}
+
+@media screen and (max-width: 47.99em)
+{
+    .banner_text {
+        text-align: center;
+        font-size: 16px;
+        margin: 0 64px;
+        line-height: 1.5;
+    }
+}
