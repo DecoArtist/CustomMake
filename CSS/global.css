@@ -411,7 +411,6 @@ nav1 {
     box-shadow: #00000040 0px 0px 40px 0px;
 }
 
-.navcontainer1 {margin-top: 60px;}
 
 a.banner_text {
     color: #ffffff;
@@ -426,14 +425,4 @@ span.highlight {
     font-size: 16px;
     margin: 0 64px;
     line-height: 1.5;
-}
-
-.banner_image {
-    position: absolute;
-    background-position: 0 10%;
-    left: -50px;
-}
-
-.banner_content {
-    background-size: 100%;
 }
