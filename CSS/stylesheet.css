@@ -545,7 +545,7 @@
 }
 
 .banner_content {
-    background-image: url(assets/UIUX/bgr/painting-stroke.svg);
+    background-image: url(https://make.supercell.com/img/paintstroke.05fee955.svg);
     background-size: 50%;
     background-position: center 40%;
     background-repeat: no-repeat;
@@ -566,7 +566,7 @@
 }
 
 .banner_image {
-    background: url(assets/renders/king_tutorial.png) no-repeat;
+    background: url(https://make.supercell.com/img/king_tutorial.b19b70bb.png) no-repeat;
     background-size: cover;
     background-position: center 28%;
     height: 100%;
