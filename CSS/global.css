@@ -414,7 +414,7 @@ nav1 {
 
 a.banner_text {
     color: #ffffff;
-    font-size: 18px;
+    font-size: 17px;
     line-height: 1.8;
     max-width: 600px;
 }
@@ -422,7 +422,7 @@ a.banner_text {
 span.highlight {
     font-weight: 700;
     text-align: center;
-    font-size: 16px;
+    font-size: 18px;
     margin: 0 1px;
     line-height: 1.5;
 }
