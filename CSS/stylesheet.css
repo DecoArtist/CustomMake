@@ -1,11 +1,19 @@
 .campaigns-container
-{position: relative;left: 50%;transform: translateX(-50%);margin-right: 2%;margin-top: 3%;border-radius: 24px;height: auto;width: 90%;max-width: 1600px;aspect-ratio: 1300/500;box-shadow: 0 4px 16px rgb(71 69 156 / 22%);}
+{
+    position: relative;
+    left: 50%;transform: translateX(-50%);
+    margin-right: 2%;
+    border-radius: 24px;
+    height: auto;width: 90%;
+    max-width: 1600px;
+    aspect-ratio: 1300/500;
+    box-shadow: 0 4px 16px rgb(71 69 156 / 22%);}
 
 @media (min-width: 48em){
     .campaigns-container {
     padding: 0px;
     min-height: 600px;
-    max-height: 1300pxpx;
+    max-height: 1300px;
 }}
 
 @media (min-width: 112.5em){
@@ -13,10 +21,12 @@
     height: calc(var(--vh)*100 - 180px);
 }}
 
-@media {
+@media screen
+{
     .campaigns-container {
     aspect-ratio: 422/360;
-}}
+}
+}
 
 .camptext
 {
