@@ -1,19 +1,22 @@
 .campaigns-container
 {
     position: relative;
-    left: 50%;transform: translateX(-50%);
+    left: 50%;
+    transform: translateX(-50%);
     margin-right: 2%;
     border-radius: 24px;
-    height: auto;width: 90%;
-    max-width: 1600px;
+    height: auto;
+    width: 90%;
+    max-width: 1700px;
     aspect-ratio: 1300/500;
-    box-shadow: 0 4px 16px rgb(71 69 156 / 22%);}
+    box-shadow: 0 4px 16px rgb(71 69 156 / 22%);
+    }
 
 @media (min-width: 48em){
     .campaigns-container {
     padding: 0px;
     min-height: 600px;
-    max-height: 1300px;
+    max-height: 820px;
 }}
 
 @media (min-width: 112.5em){
@@ -24,7 +27,7 @@
 @media screen
 {
     .campaigns-container {
-    aspect-ratio: 422/353;
+    aspect-ratio: 420/393;
 }
 }
 
@@ -86,7 +89,7 @@
     border-radius: 24px;
     height: auto;
     width: 90%;
-    max-width: 1600px;
+    max-width: 1700px;
     aspect-ratio: 1300/500;
     box-shadow: 0 4px 16px rgb(71 69 156 / 22%);
 }
@@ -362,7 +365,7 @@
     box-shadow: #00000087 0px 60px 80px -30px;
     width: 90%;
     aspect-ratio: 1300/500;
-    max-width: 1600px;
+    max-width: 1700px;
     height: 405px;
     background: linear-gradient(227.24deg,#ff8556 -13.74%,#ff00f7 235.38%);
     border-radius: 24px;
