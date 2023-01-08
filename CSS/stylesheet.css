@@ -14,7 +14,8 @@
 }}
 
 @media {
-    .campaigns-container {aspect-ratio: 422/360;
+    .campaigns-container {
+    aspect-ratio: 422/360;
 }}
 
 .camptext
@@ -541,4 +542,50 @@
         width: 190px;
         margin-left: -20px;
     }
+}
+
+.banner_content {
+    background-image: url(assets/UIUX/bgr/painting-stroke.svg);
+    background-size: 50%;
+    background-position: center 40%;
+    background-repeat: no-repeat;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.banner_image {
+    background: url(assets/renders/king_tutorial.png) no-repeat;
+    background-size: cover;
+    background-position: center 28%;
+    height: 100%;
+    width: 364px;
+    margin-left: -200px;
+}
+
+.navcontainer1 {
+    background: linear-gradient(170deg,#9978ea 12%,#6d6aff);
+    height: 0;
+    width: 100%;
+    overflow: hidden;
+    -webkit-transform: translateY(-60px);
+    transform: translateY(-60px);
+}
+
+span.highlight {
+    text-align: center;
+    font-size: 16px;
+    margin: 0 64px;
+    line-height: 1.5;
 }
