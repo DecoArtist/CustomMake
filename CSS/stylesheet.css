@@ -239,8 +239,8 @@
 .column.thumbnail-container {
     height: auto;
     width: 18vw;
-    min-width: 300px;
-    max-width: 500px;
+    min-width: 227px;
+    max-width: 350px;
     aspect-ratio: 270/350;
     position: relative;
     border-radius: 8px;
@@ -310,19 +310,19 @@
     }
 
     .column.thumbnail-container {
-        margin: 5px;
+        margin: -18px;
         margin-top: 9px;
-        margin-bottom: 20px;
+        margin-bottom: -37px;
     }
 
     .column.thumbnail-container
     {
-        width: 33vw;
+        width: 29vw;
     }
 }
 
 
-@media screen and (max-width: 640px)
+@media screen and (mix-width: 0px)
 {
     .creator-name
     {
@@ -339,7 +339,7 @@
     }
 }
 
-@media screen and (max-width: 504px)
+@media screen and (max-width:4px)
 {
 
     .column.thumbnail-container {
