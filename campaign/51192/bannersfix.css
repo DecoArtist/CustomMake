@@ -9,7 +9,7 @@
 }
 
 .row-fm.row {
-    gap: 40px;
+    gap: 46px;
     justify-content: left;
     margin: 0 0 0 10px;
 }
@@ -32,13 +32,14 @@
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    margin-top: 6px;
+    margin-top: 9px;
+    height: 24px;
 }
 
 .voteIcon.creationItem__votesIcon, .voteIcon.creationItem__votesIcon img
 {
-    margin-right: 1px;
-    height: 16px;
+    margin-right: 3px;
+    height: 24px;
 }
 
 .creationItem__bottomInfoBlock
@@ -51,17 +52,18 @@
     justify-content: center;
     -webkit-box-align: center;
     -ms-flex-align: center;
-    align-items: center;height: 18px;
+    align-items: center;
+    height: 18px;
 }
 
 .creationItem__votesLabel
 {
     color: #1c1c1c;
     font-family: Supercell Text,sans-serif;
-    font-size: 10px;
+    font-size: 11px;
     line-height: 14px;
-    letter-spacing: normal;
-    font-weight: 700;
+    letter-spacing: 0.03em;
+    font-weight: 600;
     color: silver;
 }
 
@@ -71,13 +73,13 @@
     border-radius: 9px;
     color: #1c1c1c;
     font-family: Supercell Text,sans-serif;
-    font-size: 10px;
+    font-size: 11px;
     font-style: normal;
     font-weight: 500;
     line-height: 14px;
     letter-spacing: 0;
     color: #fff;
-    padding: 4px 12px;
+    padding: 6px 15px;
     border-radius: 20px;
     line-height: 12px;
 }
@@ -119,9 +121,10 @@
 .txtdivpart h1
 {
     font-family: 'Roboto', sans-serif;
-    font-size: 15px;line-height: 20px;
+    font-size: 16px;
+    line-height: 21px;
     letter-spacing: normal;
-    font-weight: 500;
+    font-weight: 600;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -131,10 +134,10 @@
 .txtdivpart h2
 {
     font-family: 'Roboto', sans-serif;
-    font-size: 12px;
-    line-height: 17px;
+    font-size: 13px;
+    line-height: 30px;
     letter-spacing: normal;
-    font-weight: 500;
+    font-weight: 600;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
