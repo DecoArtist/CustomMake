@@ -152,6 +152,7 @@ a{font-weight:400;text-decoration:none;color:unset;}
 @media (min-width: 112.5em) {
     .block {
         padding: 0 136px;
+        margin-bottom: 30%;
     }}
 
 .block_main {
