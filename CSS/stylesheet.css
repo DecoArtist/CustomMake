@@ -238,12 +238,12 @@
 
 .column.thumbnail-container {
     height: auto;
-    width: 27vw;
+    width: 18vw;
     min-width: 300px;
     max-width: 500px;
-    aspect-ratio: 270/227;
+    aspect-ratio: 270/350;
     position: relative;
-    border-radius: 16px;
+    border-radius: 8px;
     background: #f9f9f9;
     overflow: hidden;
     transition: .2s cubic-bezier(.455,.03,.515,.955),box-shadow .2s cubic-bezier(.455,.03,.515,.955),-webkit-transform .2s cubic-bezier(.455,.03,.515,.955),-webkit-box-shadow .2s cubic-bezier(.455,.03,.515,.955);
