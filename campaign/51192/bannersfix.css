@@ -2,7 +2,6 @@
     max-width: 1610px;
     height: max-content;
     margin-top: 0;
-    margin-bottom: 37%;
 }
 
 .runnerup .render-fm {
@@ -155,18 +154,14 @@
 
 section.runnerup > .render-fm {
     max-width: 1610px;
-    height: auto;
-    max-height: unset;
 }
 
 .creators .container {
     gap: 40px;
     justify-content: center;
-    justify-content: initial;
     margin: 0;
-    padding: 6.5px 0 0 0;
     max-width: 100%!important;
-    height: auto;
+    height: 100%;
     flex-wrap: nowrap;
     overflow: auto;
     scroll-behavior: auto;
@@ -181,7 +176,6 @@ section.runnerup > .render-fm {
     display: flex;
     position: relative;
     aspect-ratio: 253/326;
-    width: 100vh;
     max-width: calc(88px*var(--submits));
     min-width: 300px;
     border-radius: 10px;
@@ -225,6 +219,7 @@ section.runnerup > .render-fm {
     bottom: 0;
     left: 10%;
     display: flex;
+    font-size: 80%;
     color: white;
     width: 100%;
 }
@@ -232,9 +227,9 @@ section.runnerup > .render-fm {
 .infocard > .column {
     display: flex;
     position: relative;
-    left: -8%;
+    left: -4%;
     width: 100%;
-    bottom: 10px;
+    bottom: 24px;
 }
 
 .infocard > .column >* {
@@ -243,10 +238,10 @@ section.runnerup > .render-fm {
 
 .infocard > .column > .row.flex-nowrap {
     justify-content: space-around;
-    width: 100%;
+    width: 90%;
     position: relative;
-    top: 4px;
-    left: 12%;
+    top: 10px;
+    left: 16%;
     align-items: center;
     text-align: center;
 }

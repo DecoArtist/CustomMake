@@ -320,7 +320,7 @@
         position: relative;
         left: 50%;
         transform: translateX(-50%);
-        box-shadow: #00000087 0px 60px 80px -30px;
+        box-shadow: #271c3a14 0px 60px 80px -30px;
         margin-right: 2%;
         border-radius: 8px;
         overflow: hidden;
@@ -428,7 +428,6 @@
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-    
         width: 110vw;
         height: 110vw;
         min-width: 1024px;
@@ -532,5 +531,4 @@
     
     .submits {
         position: relative;
-        top: calc(var(--vh, 1vh) * -35);
     }
