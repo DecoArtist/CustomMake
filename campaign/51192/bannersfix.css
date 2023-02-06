@@ -5,7 +5,7 @@
 }
 
 .runnerup .render-fm {
-    margin-top: 130px;
+    margin-top: 8vh;
 }
 
 .row-fm.row {
@@ -153,7 +153,7 @@
 }
 
 section.runnerup > .render-fm {
-    max-width: 80px;
+    max-width: 1610px;
 }
 
 .creators .container {
