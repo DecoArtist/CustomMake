@@ -532,5 +532,4 @@
     
     .submits {
         position: relative;
-        top: calc(var(--vh, 1vh) * -25);
     }
