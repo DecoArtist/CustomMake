@@ -117,3 +117,8 @@ function loadnav() {
         document.querySelector('.camptext').style = "position: absolute;"
       }, 3);
 }
+
+function closebanner() {
+
+    document.getElementById('banner_').style = "animation: out_banner 1.4s forwards cubic-bezier(0.53, -0.27, 0.66, 1.21);"
+}

@@ -22,7 +22,6 @@
         <meta name="theme-color" content="#ffad1b">
         <title>Custom Make - Explore and Create content for Molyan Stars!</title>
         <script src="https://kit.fontawesome.com/c1b646632a.js" crossorigin="anonymous"></script>
-        <script src="bootstrap-4.6.2-dist/js/bootstrap.js" defer></script>
         <link href="bootstrap-4.6.2-dist/css/bootstrap-grid.css" rel="stylesheet">
         <link rel="stylesheet" href="CSS/stylesheet.css">
         <link rel="stylesheet" href="CSS/global.css">
@@ -36,17 +35,16 @@
         </nav>
         <section class="selectionbar"></section>
         
-        <main>
+        <main onload="loadbanner()">
             <nav1>
-                <div class="navcontainer1" style="
-                margin-top: 80px;
-                translate: none;
-                rotate: none;
-                scale: none;
-                height: 128px;
-                transform: translate(0px, 0px);">
+                <div class="navcontainer1" id="banner_">
 
                     <div class="banner_content">
+                        <div class="close_container">
+                            <div class="close_button" onclick="closebanner()">
+                                <svg data-v-69af3311="" viewBox="0 0 12 12" width="12" height="12"><path d="M7.41,6l4.3-4.29A1,1,0,1,0,10.29.29L6,4.59,1.71.29A1,1,0,0,0,.29,1.71L4.59,6,.29,10.29a1,1,0,0,0,0,1.42,1,1,0,0,0,1.42,0L6,7.41l4.29,4.3a1,1,0,0,0,1.42,0,1,1,0,0,0,0-1.42Z"></path></svg>
+                            </div>
+                        </div>
                         <div class="banner_image"></div>
                         <a class="banner_text">
                             <span class="highlight">What's New?</span><span class="midtext"> Molyan Stars Campaigns Voting system is Now on our Discord Server! </span><span class="highlight">Join Now!</span>
@@ -186,9 +184,4 @@
 
 
     </body>
-    <script>
-        AOS.init({
-     duration: 1200
-    });
-      </script>
 </html>
