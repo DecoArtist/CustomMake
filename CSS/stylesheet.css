@@ -591,7 +591,7 @@
     background: linear-gradient(170deg,#9978ea 12%,#6d6aff);
     height: 130px;
     width: 100%;
-    margin-bottom: 80px;
+    margin-bottom: 115px;
     overflow: hidden;
     -webkit-transform: translateY(-60px);
     transform: translateY(-60px);
@@ -600,13 +600,13 @@
 }
 
 @keyframes enter_banner {
-    from {margin-bottom: 80px; margin-top: 0px; transform: translateY(-60px); -webkit-transform: translateY(-60px);}
+    from {margin-bottom: 115px; margin-top: 0px; transform: translateY(-60px); -webkit-transform: translateY(-60px);}
     to {margin-bottom: 0px; margin-top: 80px; transform: translate(0px, -1px); -webkit-transform: translate(0px, -1px);}
 }
 
 @keyframes out_banner {
     from {margin-bottom: 0px; margin-top: 80px; transform: translate(0px, -1px); -webkit-transform: translate(0px, -1px);}
-    to {margin-bottom: -50px; margin-top: 0px; transform: translateY(-60px); -webkit-transform: translateY(-60px);}
+    to {margin-bottom: -10px; margin-top: 0px; transform: translateY(-60px); -webkit-transform: translateY(-60px);}
 }
 
 
