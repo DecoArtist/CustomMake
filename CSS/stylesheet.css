@@ -558,8 +558,8 @@
 }
 
 .banner_content {
-    background-image: url(https://custom-make.netlify.app//assets/UIUX/nav/how-wave.1c785382.svg);
-    background-size: 100%;
+    background-image: url(https://custom-make.netlify.app/assets/UIUX/nav/how-wave.1c785382.svg);
+    background-size: 50%;
     background-position: center 40%;
     background-repeat: no-repeat;
     height: 100%;
@@ -622,6 +622,13 @@ span.highlight {
 {
     .navcontainer1 {
         margin-top: 60px;
+    }
+}
+
+@media screen and (max-width: 47.99em)
+{
+    .banner_content {
+        background-size: 100%;
     }
 }
 
