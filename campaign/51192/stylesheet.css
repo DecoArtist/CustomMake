@@ -32,7 +32,6 @@
     {
         width: 50%;
     
-        background: url(assets/EasterCampaingAnnounce.png);
         background-size: cover;
         background-position-x: 60%;
         border-top-left-radius: 8px;
@@ -74,7 +73,7 @@
         border-radius: 12px;
     }
     
-    .winnerMarker.close
+    .winnerMarker.closed
     {
         background: linear-gradient(139.52deg,#7d7780 9.24%,#28262c 154.43%);
     }
