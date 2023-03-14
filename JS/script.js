@@ -3,6 +3,7 @@ var CampGenerator = [
     //value 0
     'mr':'', // if "value" is equal to an even number 'mr':' ', but if it is an odd number 'mr':'0';
     'name':'Inky in Magic Land',
+    'color':'rgb(71, 0, 130)',
     'status':'closed',
     'date':'08/29/2022', //USA date system, month/day/year
     'link':'https://custom-make.netlify.app/campaign/91411/',
@@ -15,6 +16,7 @@ var CampGenerator = [
     //value 1
     'mr':'0', // if "value" is equal to an even number 'mr':' ', but if it is an odd number 'mr':'0';
     'name':'Molyan & Sasha:<br>Easter is here!',
+    'color':'rgb(35, 59, 164)',
     'status':'closed',
     'date':'01/03/2023', //USA date system, month/day/year
     'link':'https://custom-make.netlify.app/campaign/51192/',
