@@ -26,6 +26,32 @@ var CampGenerator = [
     },
 ];
 
+var BrawlerGenerator = [
+    {
+    //value 0
+    'name':'inky',
+    'code':'91411',
+    'size':'3,72 MB',
+    'style':'min-width: 385px;'
+    },
+
+    {
+    //value 1
+    'name':'molyan',
+    'code':'51192',
+    'size':'1,14 MB',
+    'style':''
+    },
+
+    {
+    //value 2
+    'name':'sasha',
+    'code':'51192',
+    'size':'2,97 MB',
+    'style':'top: 70%;'
+    },
+];
+
 function OpenSelectBar() {
 	document.querySelector(".selectionbar").style = "-webkit-animation: enterselec 0.3s linear forwards;";
     document.querySelector(".closemenu").style = "display:block;";
