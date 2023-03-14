@@ -580,9 +580,9 @@
 }
 
 .banner_image {
-    background: url(https://make.supercell.com/img/king_tutorial.b19b70bb.png) no-repeat;
-    background-size: cover;
-    background-position: center 28%;
+    background: url(../assets/renders/Cyrus.png) no-repeat;
+    background-size: 90%;
+    background-position: 260% 30%;
     height: 100%;
     width: 364px;
     margin-left: -200px;

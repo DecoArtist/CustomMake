@@ -1,3 +1,25 @@
+var CampGenerator = [
+    {
+    'mr':'',
+    'name':'Inky in Magic Land',
+    'status':'closed',
+    'date':'08/29/2022', //USA date system, month/day/year
+    'link':'https://custom-make.netlify.app/campaign/91411/',
+    'thumb':'https://custom-make.netlify.app/campaign/91411/assets/InkyCampaingAnnounce.jpg',
+    'description':`During one of his long journeys , Inky finds himself in a magical land , but in order to enter , he needs a magical skin ! Could that be Sorcerer Inky ? Toad Inky ? Or even a Gnome Inky ! It's up to you to make a cool skin design for Inky inspired by the Magic Theme ! The perfect creation from this campaign will be added to the game!`,
+    },
+
+    {
+    'mr':'0',
+    'name':'Molyan & Sasha:<br>Easter is here!',
+    'status':'closed',
+    'date':'01/03/2023', //USA date system, month/day/year
+    'link':'https://custom-make.netlify.app/campaign/51192/',
+    'thumb':'https://custom-make.netlify.app/campaign/51192/assets/EasterCampaingAnnounce.png',
+    'description':`In search of more Easter eggs, Molyan called his friend Sasha to get the best outfit for an egg hunt! Did they become rabbits? Or chocolatiers? But it's up to you to decide what they will look like! Vote for your favorite skin and help the Molyan Stars team choose ONE creation to be added to the game.`,
+    },
+];
+
 function OpenSelectBar() {
 	document.querySelector(".selectionbar").style = "-webkit-animation: enterselec 0.3s linear forwards;";
     document.querySelector(".closemenu").style = "display:block;";
@@ -13,18 +35,34 @@ function CloseSelectBar() {
 }
 
 let vh = window.innerHeight * 0.01;
-document.documentElement.style.setProperty('--vh', `${vh}px`);
+document.body.style.setProperty('--vh', `${vh}px`);
 let vw = window.innerWidth * 0.01;
-document.documentElement.style.setProperty('--vh-', `${vw}px`);
+document.body.style.setProperty('--vw', `${vw}px`);
 
 window.addEventListener('resize', () => {
     let vh = window.innerHeight * 0.01;
-    document.documentElement.style.setProperty('--vh', `${vh}px`);
+    document.body.style.setProperty('--vh', `${vh}px`);
   });
 
 window.addEventListener('resize', () => {
     let vw = window.innerWidth * 0.01;
-    document.documentElement.style.setProperty('--vh-', `${vw}px`);
+    document.body.style.setProperty('--vw', `${vw}px`);
+  });
+
+
+let total_vh = window.innerHeight;
+document.body.style.setProperty('--100vh', `${total_vh}px`);
+let total_vw = window.innerWidth;
+document.body.style.setProperty('--100vw', `${total_vw}px`);
+
+window.addEventListener('resize', () => {
+    let total_vh = window.innerHeight;
+    document.body.style.setProperty('--100vh', `${total_vh}px`);
+  });
+
+window.addEventListener('resize', () => {
+    let total_vw = window.innerWidth;
+    document.body.style.setProperty('--100vw', `${total_vw}px`);
   });
 
 const nav = `
@@ -110,15 +148,14 @@ const navselector = `
 function loadnav() {
     document.querySelector('nav').innerHTML = nav,
     document.querySelector('.selectionbar').innerHTML = navselector;
-      setTimeout(() => {
-        document.querySelector('.camptext').style = "position: relative;"
-      }, 2);
-      setTimeout(() => {
-        document.querySelector('.camptext').style = "position: absolute;"
-      }, 3);
 }
 
 function closebanner() {
+
+    setTimeout(() => {
+        document.getElementById('banner_').remove();
+        document.querySelector('.campaingsannounce').style.marginTop = '80px'
+      }, 1350);
 
     document.getElementById('banner_').style = "animation: out_banner 1.4s forwards cubic-bezier(0.53, -0.27, 0.66, 1.21);"
 }
