@@ -650,3 +650,26 @@ span.highlight {
         line-height: 1.5;
     }
 }
+
+
+.readytocreat {
+    margin-top: 225px;
+}
+
+@media (max-width: 1440px) {
+    .readytocreat {
+        margin-top: calc(var(--vh) * 10);
+    }
+}
+
+@media (max-width: 639px) {
+    .readytocreat {
+        margin-top: calc(var(--vh) * 24);
+    }
+}
+
+@media (max-width: 505px) {
+    .readytocreat {
+        margin-top: calc(var(--vh) * 12);
+    }
+}
