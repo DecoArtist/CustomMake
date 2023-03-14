@@ -107,7 +107,7 @@
     
         border-top-left-radius: 8px;
         border-bottom-left-radius: 8px;
-        background: linear-gradient(90deg, rgba(0, 0, 0, 0) 40%, rgb(35, 59, 164) 100%);
+        background: linear-gradient(90deg, rgba(0, 0, 0, 0) 40%, var(--campcolor) 100%);
     }
     
     .campaingimage::after
@@ -183,7 +183,7 @@
         bottom:0;
         z-index: 0;
     
-        background-color: rgb(35, 59, 164);
+        background-color: var(--campcolor);
         max-width: 769px;
         width: 100%;
         min-width: 160px;
@@ -219,7 +219,7 @@
         }
     
         .campaingimage::before {
-            background: linear-gradient(180deg, rgba(0, 0, 0, 0) 80%, rgb(35 59 164) 100%);
+            background: linear-gradient(180deg, rgba(0, 0, 0, 0) 80%, var(--campcolor) 100%);
         }
     
         .campaingimage::after {
@@ -229,6 +229,7 @@
         .campaingcontainer-m16
         {
             flex-direction: column;
+            background: none;
         }
     
         .campainginformation::after, .campainginformation, .campainginformation img, .campaingcontainer-m16, .campaingimage img, .campaingimage, .campaingimage::before, .campaingimage::after
@@ -256,6 +257,7 @@
         .whatisthecamp
         {
             margin-top: 150px;
+            margin-bottom: -70px;
         }
     
         .textaling
