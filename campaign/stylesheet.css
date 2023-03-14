@@ -1,6 +1,6 @@
 .hero-title {
     top: 142px;
-    margin-bottom: 220px;
+    margin-bottom: calc(220px - 45px);
 }
 
 .hero-title .container {
@@ -25,6 +25,10 @@
     padding: 0 20px;    
 }}
 
+.grid-layout{
+    padding-bottom: 4rem;
+}
+
 @media (max-width: 56.25em){
 .grid-layout{
     flex-wrap: wrap!important;
@@ -43,6 +47,7 @@
 .grid-item {
     margin-right: 0px;
     width: calc((100% - 0px) / 1);
+    margin-top: 45px;
 }
 
 @media (min-width: 56.25em){

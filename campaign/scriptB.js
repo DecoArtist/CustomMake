@@ -4,7 +4,7 @@ var NavigationTable = document.querySelector('.campaingheader')
 
 {
 var navigator__navigation_button = `
-<div class="campaingcontainer-m16">
+<div class="campaingcontainer-m16" style='--campcolor:${NavData[campvalue].color}'>
     <div class="campaingimage" style="background-image: url(${NavData[campvalue].thumb});">
         <div class="textalingabsolute">
             <div class="campaingstate row">
