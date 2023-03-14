@@ -25,9 +25,11 @@
         <link href="bootstrap-4.6.2-dist/css/bootstrap-grid.css" rel="stylesheet">
         <link rel="stylesheet" href="CSS/stylesheet.css">
         <link rel="stylesheet" href="CSS/global.css">
-        <script src="JS/script.js" defer></script>
         <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> -->
+        <script src="JS/script.js" defer=""></script>
+        <script src="JS/home.js" defer=""></script>
+        <script type="text/javascript">campvalue = 1</script>
     </head>
 
     <body id="app" onload="loadnav();">
@@ -46,36 +48,14 @@
                             </div>
                         </div>
                         <div class="banner_image"></div>
-                        <a class="banner_text">
-                            <span class="highlight">What's New?</span><span class="midtext"> Molyan Stars Campaigns Voting system is Now on our Discord Server! </span><span class="highlight">Join Now!</span>
-                        </a>
+                            <a class="banner_text">
+                                <span class="highlight">What's New?</span><span class="midtext"> Molyan Stars Campaigns Voting system is Now on our Discord Server! </span><span class="highlight">Join Now!</span>
+                            </a>
                         </div>
                     </div>
             </nav1>
 
             <section data-aos="fade-up" data-aos-duration="1400" class="campaingsannounce" style="position:relative;">
-            <div style="position:absolute;top:-104px;" id="campaings"></div>
-                
-                <div class="campaigns-container">
-                    <a href="https://custom-make.netlify.app/campaign/51192/">
-
-                        <div class="campaing-img"></div>
-
-                        <div class="camptext row">
-                            <img src="assets/logos/custom-logo_icon.png"><p>NEW CAMPAING</p>
-                        </div>
-
-                        <div class="under-logos">
-                            <div class="row flex-nowrap">
-                                <img src="assets/logos/custom-logo_b.png" class="1">
-                                <img src="assets/logos/molyan-stars-logo.png" class="2">
-                            </div>
-                        </div>
-
-                        <div class="campaigns-announce"></div>
-                    </a>
-                </div>
-
             </section>
 
             <section data-aos="fade-up" data-aos-duration="1000" class="news-Molyan" style="position:relative;">
@@ -184,17 +164,4 @@
 
 
     </body>
-
-    <script type="text/javascript">
-        function loadnav() {
-    document.querySelector('nav').innerHTML = nav,
-    document.querySelector('.selectionbar').innerHTML = navselector;
-      setTimeout(() => {
-        document.querySelector('.camptext').style = "position: relative;"
-      }, 2);
-      setTimeout(() => {
-        document.querySelector('.camptext').style = "position: absolute;"
-      }, 3);
-}
-    </script>
 </html>

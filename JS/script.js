@@ -1,21 +1,25 @@
 var CampGenerator = [
     {
-    'mr':'',
+    //value 0
+    'mr':'', // if "value" is equal to an even number 'mr':' ', but if it is an odd number 'mr':'0';
     'name':'Inky in Magic Land',
     'status':'closed',
     'date':'08/29/2022', //USA date system, month/day/year
     'link':'https://custom-make.netlify.app/campaign/91411/',
     'thumb':'https://custom-make.netlify.app/campaign/91411/assets/InkyCampaingAnnounce.jpg',
+    'thumb_detail':'https://custom-make.netlify.app/campaign/91411/assets/InkyCampaign.png',
     'description':`During one of his long journeys , Inky finds himself in a magical land , but in order to enter , he needs a magical skin ! Could that be Sorcerer Inky ? Toad Inky ? Or even a Gnome Inky ! It's up to you to make a cool skin design for Inky inspired by the Magic Theme ! The perfect creation from this campaign will be added to the game!`,
     },
 
     {
-    'mr':'0',
+    //value 1
+    'mr':'0', // if "value" is equal to an even number 'mr':' ', but if it is an odd number 'mr':'0';
     'name':'Molyan & Sasha:<br>Easter is here!',
     'status':'closed',
     'date':'01/03/2023', //USA date system, month/day/year
     'link':'https://custom-make.netlify.app/campaign/51192/',
     'thumb':'https://custom-make.netlify.app/campaign/51192/assets/EasterCampaingAnnounce.png',
+    'thumb_detail':'https://custom-make.netlify.app/campaign/51192/assets/EasterCampaing.png',
     'description':`In search of more Easter eggs, Molyan called his friend Sasha to get the best outfit for an egg hunt! Did they become rabbits? Or chocolatiers? But it's up to you to decide what they will look like! Vote for your favorite skin and help the Molyan Stars team choose ONE creation to be added to the game.`,
     },
 ];
