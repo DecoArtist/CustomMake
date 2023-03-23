@@ -139,7 +139,7 @@ section.section--extraClippedPadding[data-sections]{padding-bottom: calc(var(--s
 .section_background >*{margin: 0;}
 .section_background--clipped{-webkit-clip-path: polygon(0 var(--diagonal-size),100% 0,100% 100%,0 100%);clip-path: polygon(0 var(--diagonal-size),100% 0,100% 100%,0 100%);}
 .center-pab{position: absolute;left:50%;transform: translateX(-50%);}
-.no-scroll {overflow-y: hidden;bottom: 0;left: 0;position: fixed;right: 0;top: 0;}
+.no-scroll {overflow-y: hidden;}
 .hidden{display: none !important;opacity: 0;}
 img{pointer-events:none;user-select:none;}
 .clickbar img{pointer-events:all;}
