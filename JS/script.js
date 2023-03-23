@@ -56,14 +56,14 @@ function OpenSelectBar() {
 	document.querySelector(".selectionbar").style = "-webkit-animation: enterselec 0.3s linear forwards;";
     document.querySelector(".closemenu").style = "display:block;";
     document.querySelector(".openmenu").style = "display:none;";
-    document.querySelector("#app").style = "overflow:hidden;"
+    document.querySelector("#app").classList.add('no-scroll')
 }
 
 function CloseSelectBar() {
 	document.querySelector(".selectionbar").style = "-webkit-animation: backselec 0.3s linear forwards;";
     document.querySelector(".closemenu").style = "display:none;";
     document.querySelector(".openmenu").style = "display:block;";
-    document.querySelector("#app").style = "overflow:visible;overflow-x:hidden;"
+    document.querySelector("#app").classList.remove('no-scroll')
 }
 
 let vh = window.innerHeight * 0.01;
