@@ -33,9 +33,9 @@ function loadnav() {
     document.querySelector('nav').innerHTML = nav,
     document.querySelector('.selectionbar').innerHTML = navselector;
     setTimeout(() => {
-        document.querySelector('.camptext').style = "position:relative;"
+        document.querySelector('.camptext').style = "position: relative;"
     }, 2);
     setTimeout(() => {
-        document.querySelector('.camptext').style = "position:absolute;"
+        document.querySelector('.camptext').style = "position: absolute;"
     }, 3);
 }

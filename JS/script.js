@@ -1,7 +1,6 @@
 var CampGenerator = [
     {
     //value 0
-    'mr':'', // if "value" is equal to an even number 'mr':' ', but if it is an odd number 'mr':'0';
     'name':'Inky in Magic Land',
     'color':'rgb(71, 0, 130)',
     'status':'closed',
@@ -14,7 +13,6 @@ var CampGenerator = [
 
     {
     //value 1
-    'mr':'0', // if "value" is equal to an even number 'mr':' ', but if it is an odd number 'mr':'0';
     'name':'Molyan & Sasha:<br>Easter is here!',
     'color':'rgb(35, 59, 164)',
     'status':'closed',
@@ -23,6 +21,18 @@ var CampGenerator = [
     'thumb':'https://custom-make.netlify.app/campaign/51192/assets/EasterCampaingAnnounce.png',
     'thumb_detail':'https://custom-make.netlify.app/campaign/51192/assets/EasterCampaing.png',
     'description':`In search of more Easter eggs, Molyan called his friend Sasha to get the best outfit for an egg hunt! Did they become rabbits? Or chocolatiers? But it's up to you to decide what they will look like! Vote for your favorite skin and help the Molyan Stars team choose ONE creation to be added to the game.`,
+    },
+
+    {
+    //value 2
+    'name':"Dew's Summer Day",
+    'color':'rgb(150 141 228)',
+    'status':'open',
+    'date':'--/04/2023', //USA date system, month/day/year
+    'link':'https://custom-make.netlify.app/campaign/45230/',
+    'thumb':'https://custom-make.netlify.app/campaign/45230/assets/SummerCampaingAnnounce.png',
+    'thumb_detail':'https://custom-make.netlify.app/campaign/45230/assets/SummerCampaing.png',
+    'description':`Get ready to make a splash in Dew's Summer Day campaign! Dew is ready to hit the beach and show off her new skin, but she needs your help to make it happen. Will she be a lifeguard in a retro swimsuit, a surfer chick with a cool board, or a beach volleyball player with a winning outfit? The choice is yours! Create the perfect summer look for Dew and one lucky design will be added to Molayn Stars! So grab your sunscreen and let's get designing!`,
     },
 ];
 
@@ -49,6 +59,14 @@ var BrawlerGenerator = [
     'code':'51192',
     'size':'2,97 MB',
     'style':'top: 70%;'
+    },
+
+    {
+    //value 3
+    'name':'dew',
+    'code':'45230',
+    'size':'1,91 MB',
+    'style':''
     },
 ];
 
