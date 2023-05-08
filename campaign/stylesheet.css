@@ -56,6 +56,10 @@
     width: calc((100% - 32px) / 2);
 }}
 
+li.grid-item:nth-child(even) {
+    margin-right: 0;
+}
+
 .campaignItem__main {
     position: relative;
     width: 100%;

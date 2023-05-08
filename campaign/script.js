@@ -4,7 +4,7 @@ var NavigationTable = document.querySelector('.grid-layout')
 
 for(var i = 0; i < NavData.length; i++){
 var navigator__navigation_button = `
-<li class="grid-item" style="margin-right:${NavData[i].mr};">
+<li class="grid-item">
     <a href="${NavData[i].link}">
         <div class="p-relative w-100 d-block">
             <div class="campaignItem__main">
