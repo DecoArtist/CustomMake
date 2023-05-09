@@ -13,7 +13,7 @@ var navigator__navigation_button = `
             <div class="campaing-img" style="background-image:url(${NavData[campvalue].thumb})"></div>
 
             <div class="camptext row">
-                <img src="assets/logos/custom-logo_icon.png"><p>NEW CAMPAING</p>
+                <img src="assets/logos/custom-logo_icon.png"><p>NEW CAMPAIGNS</p>
             </div>
 
             <div class="under-logos">
