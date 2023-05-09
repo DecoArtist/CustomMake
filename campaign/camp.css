@@ -511,7 +511,7 @@
     
         .winnercampaing
         {
-            top: 24px;
+            top: 0;
         }
     
         .campaigns-container-winner, .campaing-bgr, .campaigns-announce, .campaingimage img, .campaingimage, .campaingimage::before, .campainginformation::after, .campainginformation, .campainginformation img
