@@ -28,7 +28,7 @@ var CampGenerator = [
     'name':"Dew's Summer Day",
     'color':'rgb(150 141 228)',
     'status':'open',
-    'date':'--/04/2023', //USA date system, month/day/year
+    'date':'08/05/2023', //USA date system, month/day/year
     'link':'https://custom-make.netlify.app/campaign/45230/',
     'thumb':'https://custom-make.netlify.app/campaign/45230/assets/SummerCampaingAnnounce.png',
     'thumb_detail':'https://custom-make.netlify.app/campaign/45230/assets/SummerCampaing.png',
